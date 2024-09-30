@@ -16,7 +16,7 @@ Este projeto consiste em uma aplicação web que fornece uma interface para real
 ## Tecnologias
 - Visualg
 - TypeScript
-- Trello
+- [Trello](https://trello.com/b/Gw6PCg9v/cronograma-api)
 - Git
 
 ## MVP
