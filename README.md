@@ -59,8 +59,8 @@ O MVP do projeto inclui:
 | Rafael Silva       | Developer       | [Github](https://github.com/edu-rafa) |
 | João Andrade       | Developer       | [Github](https://github.com/joaoandrade17) |
 | Lucas Silva        | Developer       | [Github](https://github.com/lucamusilva2014) |
-| Kaio               | Developer       | [Github](https://github.com/titans-FATEC) |
-| André Diniz        | Developer       | [Github](https://github.com/andrediniz96) |
+| Kaio               | Scrum Master    | [Github](https://github.com/titans-FATEC) |
+| André Diniz        | Product Owner   | [Github](https://github.com/andrediniz96) |
 | João Felipe        | Developer       | [Github](https://github.com/jfiliprc) |
 | Fernando Santos    | Developer       | [Github](https://github.com/fernandosantos09) |
 | Thor               | Developer       | [Github](https://github.com/thor-lynd) |
