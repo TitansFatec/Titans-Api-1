@@ -41,16 +41,23 @@ O MVP do projeto inclui:
 - Implementar operação de cálculo de função de Segundo Grau.  
 
 ## Backlog
-| ID | Requisito | História | Sprint | Prioridade |
-|----|-----------|----------|--------|------------|
-| 1  | Interface de texto | Eu, como usuário, quero acessar operações matemáticas através de uma interface de texto. | 1 | 🟥 Muito Alta |
-| 2  | Múltiplas operações | Eu, como usuário, quero realizar mais de uma operação por execução. | 1 | 🟥 Muito Alta |
-| 3  | Operações básicas | Eu, como usuário, quero realizar operações básicas de soma, subtração, multiplicação e divisão. | 1 | 🟥 Muito Alta |
-| 4  | Concatenação de strings | Eu, como usuário, quero concatenar duas strings. | 1 | 🟥 Muito Alta |
-| 5  | Cálculo fatorial | Eu, como usuário, quero calcular o fatorial de um número. | 1 | 🟥 Muito Alta |
-| 6  | Conversão de base numérica | Eu, como usuário, quero converter bases numéricas. | 2 | 🟨 Alta |
-| 7  | Juros Simples e Compostos | Eu, como usuário, quero calcular Juros Simples e Juros Compostos. | 2 | 🟨 Alta |
-| 8  | Cálculo de função de Segundo Grau | Eu, como usuário, quero calcular funções do Segundo Grau. | 3 | 🟨 Alta |
+|  | User Story | Requisito | Prioridade |
+|----------|-----------|----------|----------
+| SPRINT1  | Interface de texto para acessar as operações matematicas | 1 | 🟥 Alta |
+| SPRINT1  | Opção de realizar mais de uma operação por execução, ou finalizar a aplicação, através de um menu | 2 | 🟥 Alta |
+| SPRINT1  | Operações básicas de soma, mutiplicação, subtração e divisão | 7 | 🟥 Alta |
+| SPRINT2 | Função de Juros Simples e Juros Compostos  | 5 | 🟨 Media |
+| SPRINT2 | Operação de calculo de função de Segundo Grau | 4 | 🟨 Media |
+| SPRINT3  | Conversão de base numérica  | 3 | 🟨 Media |
+| SPRINT3  | Função de concatenação de 2 strings | 8 | 🟩 Baixa |
+| SPRINT3  | Função de calculo fatorial | 6 | 🟩 Baixa |
+
+## Backlog SPRINT 2
+
+|  | User Story | Requisito | Prioridade |
+|----------|----------|----------|----------
+| SPRINT2 | Função de Juros Simples e Juros Compostos  | 5 | 🟨 Media |
+| SPRINT2 | Operação de calculo de função de Segundo Grau | 4 | 🟥 Alta |
 
 ## Equipe
 | Nome               | Função          | GitHub                |
