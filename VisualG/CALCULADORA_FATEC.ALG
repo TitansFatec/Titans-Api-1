@@ -1,14 +1,15 @@
 Algoritmo "Caluladora_Fatec"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
 procedimento menuprincipal
-
 inicio
    escreval ("Menu Calculadora")
-   escreval("1 - Operaï¿½ï¿½es Bï¿½sicas")
+   escreval("1 - Operações Básicas")
    escreval("2 - Concatenar Strings")
    escreval("3 - Fatorial")
    escreval("4 - Juros")
-   escreval("5 - Conversï¿½o de Base Numï¿½rica")
-   escreval("6 - Funï¿½ï¿½o do Segundo Grau")
+   escreval("5 - Conversão de Base Numérica")
+   escreval("6 - Função do Segundo Grau")
    escreval("0 - Sair do sistema")
 fimprocedimento
 
@@ -37,7 +38,7 @@ fimfuncao
 funcao dividir(a,b: real): real
 inicio
    se (b=0) entao
-      escreval ("Impossï¿½vel dividir por zero")
+      escreval ("Impossível dividir por zero")
       escreval("Tente novamente!!!")
       escreval("Digite F9 para continuar")
       pausa
@@ -69,12 +70,12 @@ inicio
    se numero=0 entao
       fatorial<-1
    senao entao
-      para incremento de numero atï¿½ 1 passo -1 faca
+      para incremento de numero até 1 passo -1 faca
          fatorial<-incremento * fatorial
       fimpara
    fimse
    retorne fatorial
-fimfunï¿½ï¿½o
+fimfunção
 
 funcao CalcularJurosSimples(c, i, t: real): real
 
@@ -96,7 +97,7 @@ inicio
       escreva("Digite o valor de a: ")
       leia(a)
       se a=0 entao
-         escreval("Nï¿½o ï¿½ uma Equaï¿½ï¿½o de Segundo Grau, Insira outro valor de a:")
+         escreval("Não é uma Equação de Segundo Grau, Insira outro valor de a:")
       fimse
    ate a<>0
    escreva("Digite o valor de b: ")
@@ -105,29 +106,29 @@ inicio
    leia(c)
    delta<- (b*b) - (4*a*c)
    se delta < 0 entao
-      escreva("A equaï¿½ï¿½o nï¿½o possui raï¿½zes reais.")
+      escreva("A equação não possui raízes reais.")
    senao
       se delta = 0 entao
          x1 := -b / (2*a)
-         escreva("A equaï¿½ï¿½o possui uma raiz real: ", x1)
+         escreva("A equação possui uma raiz real: ", x1)
       senao
          x1 := (-b + RaizQ(delta)) / (2*a)
          x2 := (-b - RaizQ(delta)) / (2*a)
-         escreva("As raï¿½zes da equaï¿½ï¿½o sï¿½o: ", x1, " e ", x2)
+         escreva("As raízes da equação são: ", x1, " e ", x2)
       fimse
    fimse
 fimfuncao
 
 funcao repeticao(): caracter
 inicio
-   escreva("Deseja realizar outra operaï¿½ï¿½o (s/n): ")
+   escreva("Deseja realizar outra operação (s/n): ")
    leia(repetir)
    retorne repetir
 fimfuncao
 
 
 Var
-   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
+   // Seção de Declarações das variáveis
    opcao, fat,fatorial,incremento, numero, termino : inteiro
    operacao,repetir,opcaojuros: caracter
    x,y, resultado,juros, c, i, t, j,m,a,b,x1,x2,delta : real
@@ -135,44 +136,44 @@ Var
 
 
 Inicio
-   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
+   // Seção de Comandos, procedimento, funções, operadores, etc...
 
    repita
       menuprincipal
-      escreva("Entre com a opï¿½ï¿½o desejada: ")
+      escreva("Entre com a opção desejada: ")
       leia (opcao)
       escolha opcao
       caso 1
          repita
             limpatela
             operacao <- ""
-            escreva("Digite um nï¿½mero: ")
+            escreva("Digite um número: ")
             leia(x)
             resultado <- x
             enquanto operacao <> "=" faca
-               escreva ("Escolha a operaï¿½ï¿½o +,-,*,/ ou = para terminar: ")
+               escreva ("Escolha a operação +,-,*,/ ou = para terminar: ")
                leia(operacao)
                escolha operacao
                caso "+"
-                  escreva("Digite outro nï¿½mero: ")
+                  escreva("Digite outro número: ")
                   leia(y)
                   resultado <- somar(resultado,y)
                   limpatela
                   escreval(resultado)
                caso "-"
-                  escreva("Digite outro nï¿½mero: ")
+                  escreva("Digite outro número: ")
                   leia(y)
                   resultado <- subtrair(resultado,y)
                   limpatela
                   escreval(resultado)
                caso "*"
-                  escreva("Digite outro nï¿½mero: ")
+                  escreva("Digite outro número: ")
                   leia(y)
                   resultado <- multiplicar(resultado,y)
                   limpatela
                   escreval(resultado)
                caso "/"
-                  escreva("Digite outro nï¿½mero: ")
+                  escreva("Digite outro número: ")
                   leia(y)
                   resultado <- dividir(resultado,y)
                   limpatela
@@ -194,15 +195,15 @@ Inicio
       caso 3
          //repita
          //   limpatela
-         //   escreva ("Digite um nï¿½mero: ")
+         //   escreva ("Digite um número: ")
         //    leia(numero)
-        //    escreval("O Fatorial de",numero," ï¿½:",Fatoracao(numero))
+        //    escreval("O Fatorial de",numero," é:",Fatoracao(numero))
         //    repetir := repeticao()
        //  ate repetir = "n"
       caso 4
          limpatela
          menujuros
-         escreva ("Digite a opï¿½ï¿½o desejada: ")
+         escreva ("Digite a opção desejada: ")
          leia (opcaojuros)
          escolha opcaojuros
          caso "1"
@@ -218,7 +219,7 @@ Inicio
                j := CalcularJurosSimples(c, i, t)
                escreva(c, " * ", i * 100, "% * ", t, " = R$", j:0:2)
                escreval
-               escreva("O valor dos juros simples ï¿½: R$", j:0:2)
+               escreva("O valor dos juros simples é: R$", j:0:2)
                escreval (" ")
                repetir := repeticao()
             ate repetir = "n"
@@ -232,11 +233,11 @@ Inicio
                escreva("Digite o tempo: ")
                leia(t)
                m <- juros_compostos(c,i,t)
-               escreval("O montante ï¿½: ",m)
+               escreval("O montante é: ",m)
                repetir := repeticao()
             ate repetir = "n"
          outrocaso
-            escreval ("Digite a opï¿½ï¿½o correta, tente novamente!!!")
+            escreval ("Digite a opção correta, tente novamente!!!")
             escreval("Digite F9 para continuar")
             pausa
          fimescolha
@@ -254,7 +255,7 @@ Inicio
          timer (1000)
 
       outrocaso
-         escreva("Opï¿½ï¿½o invalida, tente novamente!!!")
+         escreva("Opção invalida, tente novamente!!!")
          timer(1000)
          timer (0)
       fimescolha
