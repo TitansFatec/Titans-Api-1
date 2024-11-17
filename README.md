@@ -52,12 +52,14 @@ O MVP do projeto inclui:
 | SPRINT3  | Função de concatenação de 2 strings | 8 | 🟩 Baixa |
 | SPRINT3  | Função de calculo fatorial | 6 | 🟩 Baixa |
 
-## Backlog SPRINT 2
+## Backlog SPRINT 3
 
 |  | User Story | Requisito | Prioridade |
 |----------|----------|----------|----------
-| SPRINT2 | Função de Juros Simples e Juros Compostos  | 5 | 🟨 Media |
-| SPRINT2 | Operação de calculo de função de Segundo Grau | 4 | 🟥 Alta |
+|  SPRINT3 | Conversão de base numérica  | 3 | 🟥 Alta |
+|  SPRINT3 | Função de concatenação de 2 strings | 8 | 🟩 Baixa |
+|  SPRINT3 |  Função de calculo fatorial | 6 | 🟨 Media |
+
 
 ## Equipe
 | Nome               | Função          | GitHub                |
