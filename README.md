@@ -34,11 +34,13 @@ O MVP do projeto inclui:
 - Permitir ao usuário realizar múltiplas operações por execução.  
 
 ### Sprint 2
-- Implementar a função de conversão de base numérica.  
+- Implementar operação de cálculo de função de Segundo Grau. 
 - Implementar a função de Juros Simples e Juros Compostos.  
 
 ### Sprint 3
-- Implementar operação de cálculo de função de Segundo Grau.  
+ - Implementar a função de conversão de base numérica.
+ - Implementar a função de Fatorial.
+ - Implementar a função de concatenação.
 
 ## Backlog
 |  | User Story | Requisito | Prioridade |
